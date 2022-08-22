@@ -1,0 +1,23 @@
+{
+  "name": "fastify-basic-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js", 
+    "test": "tap test/**/**.test.js --reporter=list --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "fastify": "^4.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "pino-pretty": "^9.0.1",
+    "tap": "^16.3.0"
+  }
+}
